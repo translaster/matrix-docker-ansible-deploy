@@ -8,150 +8,152 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: matrix-docker-ansible-deploy \n"
+"Project-Id-Version: matrix-docker-ansible-deploy\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-03 12:16+0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ru\n"
+"PO-Revision-Date: 2026-03-04 09:30+0500\n"
+"Last-Translator: Dmitriy Q <atsip-help@yandex.ru>\n"
 "Language-Team: ru <LL@li.org>\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "Generated-By: Babel 2.17.0\n"
+"X-Generator: Poedit 3.8\n"
 
 #: ../../../README.md:1
 msgid "[![Support room on Matrix](https://img.shields.io/matrix/matrix-docker-ansible-deploy:devture.com.svg?label=%23matrix-docker-ansible-deploy%3Adevture.com&logo=matrix&style=for-the-badge&server_fqdn=matrix.devture.com&fetchMode=summary)](https://matrix.to/#/#matrix-docker-ansible-deploy:devture.com) [![donate](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/s.pantaleev/donate) [![REUSE status](https://api.reuse.software/badge/github.com/spantaleev/matrix-docker-ansible-deploy)](https://api.reuse.software/info/github.com/spantaleev/matrix-docker-ansible-deploy)"
-msgstr ""
+msgstr "[![Support room on Matrix](https://img.shields.io/matrix/matrix-docker-ansible-deploy:devture.com.svg?label=%23matrix-docker-ansible-deploy%3Adevture.com&logo=matrix&style=for-the-badge&server_fqdn=matrix.devture.com&fetchMode=summary)](https://matrix.to/#/#matrix-docker-ansible-deploy:devture.com) [![donate](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/s.pantaleev/donate) [![REUSE status](https://api.reuse.software/badge/github.com/spantaleev/matrix-docker-ansible-deploy)](https://api.reuse.software/info/github.com/spantaleev/matrix-docker-ansible-deploy)"
 
 #: ../../../README.md:1
 msgid "Support room on Matrix"
-msgstr ""
+msgstr "Пддержка комнат в Matrix"
 
 #: ../../../README.md:1
 msgid "donate"
-msgstr ""
+msgstr "пожертвовать"
 
 #: ../../../README.md:1
 msgid "REUSE status"
-msgstr ""
+msgstr "состояние REUSE"
 
 #: ../../../README.md:3
 msgid "Matrix (An open network for secure, decentralized communication) server setup using Ansible and Docker"
-msgstr ""
+msgstr "Настройка сервера Matrix (Открытая сеть для безопасного децентрализованного общения) с использованием Ansible и Docker"
 
 #: ../../../README.md:5
 msgid "🎯 Purpose"
-msgstr ""
+msgstr "🎯 Цель"
 
 #: ../../../README.md:7
 msgid "This [Ansible](https://www.ansible.com/) playbook is meant to help you run your own [Matrix](http://matrix.org/) homeserver, along with the [various services](#supported-services) related to that."
-msgstr ""
+msgstr "Этот [Ansible](https://www.ansible.com/) плейбук предназначен для того, чтобы помочь вам запустить ваш собственный [Matrix](http://matrix.org/) домашний-сервер, а также [различные сервисы](#supported-services), связанные с ним."
 
 #: ../../../README.md:9
 msgid "That is, it lets you join the Matrix network using your own user ID like `@alice:example.com`, all hosted on your own server (see [prerequisites](docs/prerequisites.md))."
-msgstr ""
+msgstr "То есть он позволит подключаться к сети Matrix, используя свой собственный идентификатор пользователя, например `@alice:example.com`, при этом всё размещается на вашем собственном сервере (см. [требования](docs/prerequisites.md))."
 
 #: ../../../README.md:11
 msgid "We run all [supported services](#-supported-services) in [Docker](https://www.docker.com/) containers (see [the container images we use](docs/container-images.md)), which lets us have a predictable and up-to-date setup, across multiple supported distros (see [prerequisites](docs/prerequisites.md)) and [architectures](docs/alternative-architectures.md) (x86/amd64 being recommended)."
-msgstr ""
+msgstr "Мы запускаем все [поддерживаемые службы](#-supported-services) в контейнерах [Docker](https://www.docker.com/) (см. [контейнерные образы, которые мы используем](docs/container-images.md)), что позволяет нам иметь предсказуемую и актуальную настройку на различных поддерживаемых дистрибутивах (см. [предварительные требования](docs/prerequisites.md)) и [архитектурах](docs/alternative-architectures.md) (рекомендуется x86/amd64)."
 
 #: ../../../README.md:13
 msgid "Installation (upgrades) and some maintenance tasks are automated using [Ansible](https://www.ansible.com/) (see [our Ansible guide](docs/ansible.md))."
-msgstr ""
+msgstr "Установка (обновления) и некоторые задачи по обслуживанию автоматизированы с помощью [Ansible](https://www.ansible.com/) (см. [наш гид по Ansible](docs/ansible.md))."
 
 #: ../../../README.md:15
 msgid "☁ Self-hosting or Managed / SaaS"
-msgstr ""
+msgstr "☁ Самостоятельный хостинг или Управляемый / SaaS"
 
 #: ../../../README.md:17
 msgid "This Ansible playbook tries to make self-hosting and maintaining a Matrix server fairly easy (see [Getting started](#-getting-started)). Still, running any service smoothly requires knowledge, time and effort."
-msgstr ""
+msgstr "Этот плейбук Ansible пытается сделать самостоятельный хостинг и обслуживание сервера Matrix довольно простым (см. [Начало работы](#-getting-started)). Тем не менее, для стабильной работы любого сервиса требуются знания, время и усилия."
 
 #: ../../../README.md:19
 msgid "If you like the [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) spirit of this Ansible playbook, but prefer to put the responsibility on someone else, you can also [get a managed Matrix server from etke.cc](https://etke.cc?utm_source=github&utm_medium=readme&utm_campaign=mdad) (both hosting and on-premises) - a service built on top of this Ansible playbook but with [additional components](https://etke.cc/help/extras/?utm_source=github&utm_medium=readme&utm_campaign=mdad) and [services](https://etke.cc/services/?utm_source=github&utm_medium=readme&utm_campaign=mdad) which all help you run a Matrix server with ease. Be advised that etke.cc operates on a subscription-based approach and there is no \"just set up my server once and be done with it\" option."
-msgstr ""
+msgstr "Если вам нравится [дух FOSS](https://ru.wikipedia.org/wiki/Свободное_и_открытое_программное_обеспечение) этого плейбука Ansible, но вы предпочитаете переложить ответственность на кого-то другого, то также можете [получить управляемый сервер Matrix от etke.cc](https://etke.cc?utm_source=github&utm_medium=readme&utm_campaign=mdad) (как хостинг, так и локальный) — это сервис, построенный на основе этого Ansible playbook, но с [дополнительными компонентами](https://etke.cc/help/extras/?utm_source=github&utm_medium=readme&utm_campaign=mdad) и [сервисами](https://etke.cc/services/?utm_source=github&utm_medium=readme&utm_campaign=mdad), которые помогут вам легко запустить сервер Matrix. Обратите внимание, что etke.cc работает по подписке, и опции «просто настроить сервер один раз и забыть» нет."
 
 #: ../../../README.md:21
 msgid "🚀 Getting started"
-msgstr ""
+msgstr "🚀 Начало работы"
 
 #: ../../../README.md:23
 msgid "We have detailed documentation in the [docs/](./docs) directory - see the Table of Contents in the [documentation README](./docs/README.md)."
-msgstr ""
+msgstr "У нас есть подробная документация в каталоге [docs/](./docs) — смотрите Содержание в [README документации](./docs/README.md)."
 
 #: ../../../README.md:25
 msgid "While the [list of supported services](#-supported-services) and documentation is very extensive, you don't need to read through everything. We recommend:"
-msgstr ""
+msgstr "Хотя [список поддерживаемых сервисов](#-supported-services) и документация очень обширны, вам не нужно изучать всё. Мы рекомендуем:"
 
 #: ../../../README.md:27
 msgid "Starting with the basics. You can always add/remove or tweak services later on."
-msgstr ""
+msgstr "Начнем с основ. Вы всегда можете добавить, удалить или изменить услуги позже."
 
 #: ../../../README.md:29
 msgid "Following our installation guide. There are two guides available for beginners and advanced users:"
-msgstr ""
+msgstr "Следуя нашему руководству по установке. Доступны два руководства для начинающих и опытных пользователей:"
 
 #: ../../../README.md:31
 msgid "⚡ **[Quick start](./docs/quick-start.md) (for beginners)**: this is recommended for those who do not have an existing Matrix server and want to start quickly with \"opinionated defaults\"."
-msgstr ""
+msgstr "⚡ **[Быстрый старт](./docs/quick-start.md) (для начинающих)**: рекомендуется для тех, у кого нет существующего сервера Matrix и кто хочет быстро начать с «предопределёнными настройками»."
 
 #: ../../../README.md:33
 msgid "**Full installation guide (for advanced users)**: if you need to import an existing Matrix server's data into the new server or want to learn more while setting up the server, follow this guide by starting with the **[Prerequisites](./docs/prerequisites.md)** documentation page."
-msgstr ""
+msgstr "**Полное руководство по установке (для опытных пользователей)**: если вам нужно импортировать данные существующего сервера Matrix на новый сервер или хотите узнать больше во время настройки сервера, следуйте этому руководству, начиная с страницы документации **[Требования](./docs/prerequisites.md)**."
 
 #: ../../../README.md:35
 msgid "If you experience an issue on configuring the playbook, setting up your server, maintaining services on it, etc., please take a look at our [FAQ](./docs/faq.md). If you cannot find an answer to your question, feel free to ask for [help and support](#-support)."
-msgstr ""
+msgstr "Если у вас возникли проблемы с конфигурацией плейбука, настройкой сервера, обслуживанием сервисов на нем и т.д., пожалуйста, ознакомьтесь с нашим [FAQ](./docs/faq.md). Если вы не можете найти ответ на свой вопрос, не стесняйтесь обратиться за [помощью и поддержкой](#-support)."
 
 #: ../../../README.md:37
 msgid "✔ Supported services"
-msgstr ""
+msgstr "✔ Поддерживаемые сервисы"
 
 #: ../../../README.md:39
 msgid "Using this playbook, you can get the following list of services configured on your server. Basically, this playbook aims to get you up-and-running with all the necessities around Matrix, without you having to do anything else."
-msgstr ""
+msgstr "Используя этот плейбук, вы можете получить следующий список сервисов, настроенных на вашем сервере. По сути, этот плейбук нацелен на то, чтобы вы могли быстро начать работу со всеми необходимыми вещами для Matrix, не делая ничего дополнительно."
 
 #: ../../../README.md:41
 msgid "**Notes**:"
-msgstr ""
+msgstr "**Примечания**:"
 
 #: ../../../README.md:43
 msgid "The list below is exhaustive. It includes optional or even some advanced components that you will most likely not need. Sticking with the defaults (which install a subset of the above components) is the best choice, especially for a new installation. You can always re-run the playbook later to add or remove components."
-msgstr ""
+msgstr "Ниже приведённый список является исчерпывающим. Он включает опциональные или даже некоторые продвинутые компоненты, которые вам, скорее всего, не понадобятся. Использование настроек по умолчанию (которые устанавливают подмножество вышеуказанных компонентов) является наилучшим выбором, особенно для новой установки. Вы всегда можете повторно запустить плейбук позже, чтобы добавить или удалить компоненты."
 
 #: ../../../README.md:45
 msgid "Deprecated or unmaintained services are not listed. You can find documentations for them [here](docs/configuring-playbook.md#deprecated--unmaintained--removed-services)."
-msgstr ""
+msgstr "Устаревшие или не поддерживаемые сервисы не перечислены. Вы можете найти документацию по ним [здесь](docs/configuring-playbook.md#deprecated--unmaintained--removed-services)."
 
 #: ../../../README.md:47
 msgid "Homeserver"
-msgstr ""
+msgstr "Домашний сервер"
 
 #: ../../../README.md:49
 msgid "The homeserver is the backbone of your Matrix system. Choose one from the following list."
-msgstr ""
+msgstr "Домашний сервер является основой вашей системы Matrix. Выберите один из следующего списка."
 
 #: ../../../README.md
+#, fuzzy
 msgid "Name"
-msgstr ""
+msgstr "Название"
 
 #: ../../../README.md
 msgid "Default?"
-msgstr ""
+msgstr "По умолчанию?"
 
 #: ../../../README.md
 msgid "Description"
-msgstr ""
+msgstr "Описание"
 
 #: ../../../README.md
 msgid "Documentation"
-msgstr ""
+msgstr "Документация"
 
 #: ../../../README.md
 msgid "[Synapse](https://github.com/element-hq/synapse)"
-msgstr ""
+msgstr "[Synapse](https://github.com/element-hq/synapse)"
 
 #: ../../../README.md
 msgid "✅"
@@ -159,15 +161,15 @@ msgstr ""
 
 #: ../../../README.md
 msgid "Storing your data and managing your presence in the [Matrix](http://matrix.org/) network"
-msgstr ""
+msgstr "Хранение ваших данных и управление вашим присутствием в сети [Matrix](http://matrix.org/)"
 
 #: ../../../README.md
 msgid "[Link](docs/configuring-playbook-synapse.md)"
-msgstr ""
+msgstr "[Ссылка](docs/configuring-playbook-synapse.md)"
 
 #: ../../../README.md
 msgid "[Conduit](https://conduit.rs)"
-msgstr ""
+msgstr "[Conduit](https://conduit.rs)"
 
 #: ../../../README.md
 msgid "❌"
@@ -175,107 +177,107 @@ msgstr ""
 
 #: ../../../README.md
 msgid "Storing your data and managing your presence in the [Matrix](http://matrix.org/) network. Conduit is a lightweight open-source server implementation of the Matrix Specification with a focus on easy setup and low system requirements"
-msgstr ""
+msgstr "Хранение ваших данных и управление вашим присутствием в сети [Matrix](http://matrix.org/). Conduit — это лёгкая открытая реализация сервера спецификации Matrix с акцентом на простую настройку и низкие системные требования"
 
 #: ../../../README.md
 msgid "[Link](docs/configuring-playbook-conduit.md)"
-msgstr ""
+msgstr "[Ссылка](docs/configuring-playbook-conduit.md)"
 
 #: ../../../README.md
 msgid "[continuwuity](https://continuwuity.org)"
-msgstr ""
+msgstr "[continuwuity](https://continuwuity.org)"
 
 #: ../../../README.md
 msgid "Storing your data and managing your presence in the [Matrix](http://matrix.org/) network."
-msgstr ""
+msgstr "Хранение ваших данных и управление вашим присутствием в сети [Matrix](http://matrix.org/)."
 
 #: ../../../README.md
 msgid "[Link](docs/configuring-playbook-continuwuity.md)"
-msgstr ""
+msgstr "[Ссылка](docs/configuring-playbook-continuwuity.md)"
 
 #: ../../../README.md
 msgid "[Dendrite](https://github.com/element-hq/dendrite)"
-msgstr ""
+msgstr "[Dendrite](https://github.com/element-hq/dendrite)"
 
 #: ../../../README.md
 msgid "Storing your data and managing your presence in the [Matrix](http://matrix.org/) network. Dendrite is a second-generation Matrix homeserver written in Go, an alternative to Synapse."
-msgstr ""
+msgstr "Хранение ваших данных и управление вашим присутствием в сети [Matrix](http://matrix.org/). Dendrite — это сервер Matrix второго поколения, написанный на Go, альтернатива Synapse."
 
 #: ../../../README.md
 msgid "[Link](docs/configuring-playbook-dendrite.md)"
-msgstr ""
+msgstr "[Ссылка](docs/configuring-playbook-dendrite.md)"
 
 #: ../../../README.md:58
 msgid "Clients"
-msgstr ""
+msgstr "Клиенты"
 
 #: ../../../README.md:60
 msgid "Web clients for Matrix that you can host on your own domains."
-msgstr ""
+msgstr "Веб-клиенты для Matrix, которые вы можете размещать на собственных доменах."
 
 #: ../../../README.md
 msgid "[Element Web](https://github.com/element-hq/element-web)"
-msgstr ""
+msgstr "[Element Web](https://github.com/element-hq/element-web)"
 
 #: ../../../README.md
 msgid "Default Matrix web client, configured to connect to your own Synapse server"
-msgstr ""
+msgstr "Клиент Matrix по умолчанию, настроенный для подключения к вашему собственному серверу Synapse"
 
 #: ../../../README.md
 msgid "[Link](docs/configuring-playbook-client-element-web.md)"
-msgstr ""
+msgstr "[Ссылка](docs/configuring-playbook-client-element-web.md)"
 
 #: ../../../README.md
 msgid "[Hydrogen](https://github.com/element-hq/hydrogen-web)"
-msgstr ""
+msgstr "[Hydrogen](https://github.com/element-hq/hydrogen-web)"
 
 #: ../../../README.md
 msgid "Lightweight Matrix client with legacy and mobile browser support"
-msgstr ""
+msgstr "Лёгкий клиент Matrix с поддержкой устаревших и мобильных браузеров"
 
 #: ../../../README.md
 msgid "[Link](docs/configuring-playbook-client-hydrogen.md)"
-msgstr ""
+msgstr "[Ссылка](docs/configuring-playbook-client-hydrogen.md)"
 
 #: ../../../README.md
 msgid "[Cinny](https://github.com/ajbura/cinny)"
-msgstr ""
+msgstr "[Cinny](https://github.com/ajbura/cinny)"
 
 #: ../../../README.md
 msgid "Simple, elegant and secure web client"
-msgstr ""
+msgstr "Простой, элегантный и безопасный веб-клиент"
 
 #: ../../../README.md
 msgid "[Link](docs/configuring-playbook-client-cinny.md)"
-msgstr ""
+msgstr "[Ссылка](docs/configuring-playbook-client-cinny.md)"
 
 #: ../../../README.md
 msgid "[SchildiChat Web](https://schildi.chat/)"
-msgstr ""
+msgstr "[SchildiChat Web](https://schildi.chat/)"
 
 #: ../../../README.md
 msgid "Based on Element Web, with a more traditional instant messaging experience"
-msgstr ""
+msgstr "Основано на Element Web, с более традиционным опытом мгновенного обмена сообщениями"
 
 #: ../../../README.md
 msgid "[Link](docs/configuring-playbook-client-schildichat-web.md)"
-msgstr ""
+msgstr "[Ссылка](docs/configuring-playbook-client-schildichat-web.md)"
 
 #: ../../../README.md
 msgid "[FluffyChat Web](https://fluffychat.im/)"
-msgstr ""
+msgstr "[FluffyChat Web](https://fluffychat.im/)"
 
 #: ../../../README.md
 msgid "The cutest messenger in Matrix"
-msgstr ""
+msgstr "Самый милый клиент для Matrix"
 
 #: ../../../README.md
 msgid "[Link](docs/configuring-playbook-client-fluffychat-web.md)"
-msgstr ""
+msgstr "[Ссылка](docs/configuring-playbook-client-fluffychat-web.md)"
 
 #: ../../../README.md:70
 msgid "Server Components"
-msgstr ""
+msgstr "Серверные компоненты"
 
 #: ../../../README.md:72
 msgid "Services that run on the server to make the various parts of your installation work."
@@ -283,7 +285,7 @@ msgstr ""
 
 #: ../../../README.md
 msgid "[PostgreSQL](https://www.postgresql.org/)"
-msgstr ""
+msgstr "[PostgreSQL](https://www.postgresql.org/)"
 
 #: ../../../README.md
 msgid "Database for Synapse. [Using an external PostgreSQL server](docs/configuring-playbook-external-postgres.md) is also possible."
@@ -367,7 +369,7 @@ msgstr ""
 
 #: ../../../README.md:84
 msgid "Authentication"
-msgstr ""
+msgstr "Аутентификация"
 
 #: ../../../README.md:86
 msgid "Extend and modify how users are authenticated on your homeserver."
@@ -459,7 +461,7 @@ msgstr ""
 
 #: ../../../README.md:98
 msgid "File Storage"
-msgstr ""
+msgstr "Хранилище файлов"
 
 #: ../../../README.md:100
 msgid "Use alternative file storage to the default `media_store` folder."
@@ -887,7 +889,7 @@ msgstr ""
 
 #: ../../../README.md:153
 msgid "Administration"
-msgstr ""
+msgstr "Администрирование"
 
 #: ../../../README.md:155
 msgid "Services that help you in administrating and monitoring your Matrix installation."
